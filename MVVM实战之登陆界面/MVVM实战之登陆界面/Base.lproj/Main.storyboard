@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yxZ-uo-4BW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="9cj-Fz-LKS"/>
+                                    <constraint firstAttribute="height" constant="30" id="c5B-RM-VNP"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-vS-Ht5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NmE-hm-z1H"/>
+                                    <constraint firstAttribute="width" constant="100" id="y1m-YU-5pn"/>
+                                </constraints>
+                                <state key="normal" title="登陆"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ed-Ld-6Nj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7dj-Q6-Nkc"/>
+                                    <constraint firstAttribute="width" constant="97" id="Ij9-F0-42x"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Ed-Ld-6Nj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="2dy-FD-kYO"/>
+                            <constraint firstItem="2Ed-Ld-6Nj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="2qj-xT-9dg"/>
+                            <constraint firstItem="yxZ-uo-4BW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="K3c-HD-fPl"/>
+                            <constraint firstItem="8e2-vS-Ht5" firstAttribute="top" secondItem="yxZ-uo-4BW" secondAttribute="bottom" constant="20" id="KFK-1Q-ctU"/>
+                            <constraint firstItem="8e2-vS-Ht5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="el7-z0-6ZS"/>
+                            <constraint firstItem="yxZ-uo-4BW" firstAttribute="top" secondItem="2Ed-Ld-6Nj" secondAttribute="bottom" constant="30" id="fXs-Zm-LIt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accountField" destination="2Ed-Ld-6Nj" id="XS4-6Z-R31"/>
+                        <outlet property="loginBtn" destination="8e2-vS-Ht5" id="JGj-9c-4VB"/>
+                        <outlet property="pwdField" destination="yxZ-uo-4BW" id="d4F-zV-f6g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

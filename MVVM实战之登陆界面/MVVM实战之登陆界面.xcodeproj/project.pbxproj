@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BDACA7F8CBE6E7BDB5FD3B /* libPods-MVVM实战之登陆界面UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B6F9EED2302469998E2469 /* libPods-MVVM实战之登陆界面UITests.a */; };
+		27C14EBAA44089C6680A7CD9 /* libPods-MVVM实战之登陆界面.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5DF05EF4C62727B44BD827 /* libPods-MVVM实战之登陆界面.a */; };
+		330E22B21DE58F9800562C95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22B11DE58F9800562C95 /* main.m */; };
+		330E22B51DE58F9800562C95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22B41DE58F9800562C95 /* AppDelegate.m */; };
+		330E22B81DE58F9800562C95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22B71DE58F9800562C95 /* ViewController.m */; };
+		330E22BB1DE58F9800562C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E22B91DE58F9800562C95 /* Main.storyboard */; };
+		330E22BD1DE58F9800562C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330E22BC1DE58F9800562C95 /* Assets.xcassets */; };
+		330E22C01DE58F9800562C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E22BE1DE58F9800562C95 /* LaunchScreen.storyboard */; };
+		330E22CB1DE58F9800562C95 /* MVVM_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22CA1DE58F9800562C95 /* MVVM_______Tests.m */; };
+		330E22D61DE58F9800562C95 /* MVVM_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22D51DE58F9800562C95 /* MVVM_______UITests.m */; };
+		330E22E51DE5AC9B00562C95 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22E41DE5AC9B00562C95 /* LoginViewModel.m */; };
+		330E22E81DE5ACA700562C95 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22E71DE5ACA700562C95 /* Account.m */; };
+		8205DA750B243751958C7145 /* libPods-MVVM实战之登陆界面Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B21C3029506F597D49A0C36 /* libPods-MVVM实战之登陆界面Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330E22C71DE58F9800562C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E22A51DE58F9800562C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E22AC1DE58F9800562C95;
+			remoteInfo = "MVVM实战之登陆界面";
+		};
+		330E22D21DE58F9800562C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E22A51DE58F9800562C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E22AC1DE58F9800562C95;
+			remoteInfo = "MVVM实战之登陆界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0575F0271D4180E803645135 /* Pods-MVVM实战之登陆界面Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面Tests/Pods-MVVM实战之登陆界面Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C5DF05EF4C62727B44BD827 /* libPods-MVVM实战之登陆界面.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之登陆界面.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E22AD1DE58F9800562C95 /* MVVM实战之登陆界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM实战之登陆界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E22B11DE58F9800562C95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330E22B31DE58F9800562C95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330E22B41DE58F9800562C95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330E22B61DE58F9800562C95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330E22B71DE58F9800562C95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330E22BA1DE58F9800562C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330E22BC1DE58F9800562C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330E22BF1DE58F9800562C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330E22C11DE58F9800562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E22C61DE58F9800562C95 /* MVVM实战之登陆界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM实战之登陆界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E22CA1DE58F9800562C95 /* MVVM_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVVM_______Tests.m"; sourceTree = "<group>"; };
+		330E22CC1DE58F9800562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E22D11DE58F9800562C95 /* MVVM实战之登陆界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM实战之登陆界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E22D51DE58F9800562C95 /* MVVM_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVVM_______UITests.m"; sourceTree = "<group>"; };
+		330E22D71DE58F9800562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E22E31DE5AC9B00562C95 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		330E22E41DE5AC9B00562C95 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		330E22E61DE5ACA700562C95 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		330E22E71DE5ACA700562C95 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		6B21C3029506F597D49A0C36 /* libPods-MVVM实战之登陆界面Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之登陆界面Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7D14408E781999314B2CB8 /* Pods-MVVM实战之登陆界面UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面UITests/Pods-MVVM实战之登陆界面UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E991D39EBBA7CCF012F1A08 /* Pods-MVVM实战之登陆界面UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面UITests/Pods-MVVM实战之登陆界面UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81B6F9EED2302469998E2469 /* libPods-MVVM实战之登陆界面UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之登陆界面UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B019271E31720B9CE2DE1BE /* Pods-MVVM实战之登陆界面Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面Tests/Pods-MVVM实战之登陆界面Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B35628D302756110E097D237 /* Pods-MVVM实战之登陆界面.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面/Pods-MVVM实战之登陆界面.debug.xcconfig"; sourceTree = "<group>"; };
+		C3E1F5222AFCED616BDC9951 /* Pods-MVVM实战之登陆界面.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之登陆界面.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之登陆界面/Pods-MVVM实战之登陆界面.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330E22AA1DE58F9800562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C14EBAA44089C6680A7CD9 /* libPods-MVVM实战之登陆界面.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22C31DE58F9800562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8205DA750B243751958C7145 /* libPods-MVVM实战之登陆界面Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22CE1DE58F9800562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BDACA7F8CBE6E7BDB5FD3B /* libPods-MVVM实战之登陆界面UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237D4C409E86A03DDD7A874E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C5DF05EF4C62727B44BD827 /* libPods-MVVM实战之登陆界面.a */,
+				6B21C3029506F597D49A0C36 /* libPods-MVVM实战之登陆界面Tests.a */,
+				81B6F9EED2302469998E2469 /* libPods-MVVM实战之登陆界面UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330E22A41DE58F9800562C95 = {
+			isa = PBXGroup;
+			children = (
+				330E22AF1DE58F9800562C95 /* MVVM实战之登陆界面 */,
+				330E22C91DE58F9800562C95 /* MVVM实战之登陆界面Tests */,
+				330E22D41DE58F9800562C95 /* MVVM实战之登陆界面UITests */,
+				330E22AE1DE58F9800562C95 /* Products */,
+				716DC5C6CF134536FE12886E /* Pods */,
+				237D4C409E86A03DDD7A874E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		330E22AE1DE58F9800562C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330E22AD1DE58F9800562C95 /* MVVM实战之登陆界面.app */,
+				330E22C61DE58F9800562C95 /* MVVM实战之登陆界面Tests.xctest */,
+				330E22D11DE58F9800562C95 /* MVVM实战之登陆界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330E22AF1DE58F9800562C95 /* MVVM实战之登陆界面 */ = {
+			isa = PBXGroup;
+			children = (
+				330E22B31DE58F9800562C95 /* AppDelegate.h */,
+				330E22B41DE58F9800562C95 /* AppDelegate.m */,
+				330E22E61DE5ACA700562C95 /* Account.h */,
+				330E22E71DE5ACA700562C95 /* Account.m */,
+				330E22E31DE5AC9B00562C95 /* LoginViewModel.h */,
+				330E22E41DE5AC9B00562C95 /* LoginViewModel.m */,
+				330E22B61DE58F9800562C95 /* ViewController.h */,
+				330E22B71DE58F9800562C95 /* ViewController.m */,
+				330E22B91DE58F9800562C95 /* Main.storyboard */,
+				330E22BC1DE58F9800562C95 /* Assets.xcassets */,
+				330E22BE1DE58F9800562C95 /* LaunchScreen.storyboard */,
+				330E22C11DE58F9800562C95 /* Info.plist */,
+				330E22B01DE58F9800562C95 /* Supporting Files */,
+			);
+			path = "MVVM实战之登陆界面";
+			sourceTree = "<group>";
+		};
+		330E22B01DE58F9800562C95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330E22B11DE58F9800562C95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330E22C91DE58F9800562C95 /* MVVM实战之登陆界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				330E22CA1DE58F9800562C95 /* MVVM_______Tests.m */,
+				330E22CC1DE58F9800562C95 /* Info.plist */,
+			);
+			path = "MVVM实战之登陆界面Tests";
+			sourceTree = "<group>";
+		};
+		330E22D41DE58F9800562C95 /* MVVM实战之登陆界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				330E22D51DE58F9800562C95 /* MVVM_______UITests.m */,
+				330E22D71DE58F9800562C95 /* Info.plist */,
+			);
+			path = "MVVM实战之登陆界面UITests";
+			sourceTree = "<group>";
+		};
+		716DC5C6CF134536FE12886E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35628D302756110E097D237 /* Pods-MVVM实战之登陆界面.debug.xcconfig */,
+				C3E1F5222AFCED616BDC9951 /* Pods-MVVM实战之登陆界面.release.xcconfig */,
+				9B019271E31720B9CE2DE1BE /* Pods-MVVM实战之登陆界面Tests.debug.xcconfig */,
+				0575F0271D4180E803645135 /* Pods-MVVM实战之登陆界面Tests.release.xcconfig */,
+				7E991D39EBBA7CCF012F1A08 /* Pods-MVVM实战之登陆界面UITests.debug.xcconfig */,
+				6C7D14408E781999314B2CB8 /* Pods-MVVM实战之登陆界面UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330E22AC1DE58F9800562C95 /* MVVM实战之登陆界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E22DA1DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面" */;
+			buildPhases = (
+				85D446172A24EFE3939B0109 /* [CP] Check Pods Manifest.lock */,
+				330E22A91DE58F9800562C95 /* Sources */,
+				330E22AA1DE58F9800562C95 /* Frameworks */,
+				330E22AB1DE58F9800562C95 /* Resources */,
+				62645B4C2E8CB53FD07DC9AE /* [CP] Embed Pods Frameworks */,
+				B8A8F6F00C33E130834BC3D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM实战之登陆界面";
+			productName = "MVVM实战之登陆界面";
+			productReference = 330E22AD1DE58F9800562C95 /* MVVM实战之登陆界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330E22C51DE58F9800562C95 /* MVVM实战之登陆界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E22DD1DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面Tests" */;
+			buildPhases = (
+				5F9FE44C851C1AC6E580372A /* [CP] Check Pods Manifest.lock */,
+				330E22C21DE58F9800562C95 /* Sources */,
+				330E22C31DE58F9800562C95 /* Frameworks */,
+				330E22C41DE58F9800562C95 /* Resources */,
+				8393B6338E3BBA3650720A80 /* [CP] Embed Pods Frameworks */,
+				99195AD14A4C8A9C870F33A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E22C81DE58F9800562C95 /* PBXTargetDependency */,
+			);
+			name = "MVVM实战之登陆界面Tests";
+			productName = "MVVM实战之登陆界面Tests";
+			productReference = 330E22C61DE58F9800562C95 /* MVVM实战之登陆界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330E22D01DE58F9800562C95 /* MVVM实战之登陆界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E22E01DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面UITests" */;
+			buildPhases = (
+				F179002EA857DD354F016DEF /* [CP] Check Pods Manifest.lock */,
+				330E22CD1DE58F9800562C95 /* Sources */,
+				330E22CE1DE58F9800562C95 /* Frameworks */,
+				330E22CF1DE58F9800562C95 /* Resources */,
+				7EF057CED4A905F53C81191B /* [CP] Embed Pods Frameworks */,
+				99BCDDD03C0BAFE3B3D94BBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E22D31DE58F9800562C95 /* PBXTargetDependency */,
+			);
+			name = "MVVM实战之登陆界面UITests";
+			productName = "MVVM实战之登陆界面UITests";
+			productReference = 330E22D11DE58F9800562C95 /* MVVM实战之登陆界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330E22A51DE58F9800562C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					330E22AC1DE58F9800562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+					};
+					330E22C51DE58F9800562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330E22AC1DE58F9800562C95;
+					};
+					330E22D01DE58F9800562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330E22AC1DE58F9800562C95;
+					};
+				};
+			};
+			buildConfigurationList = 330E22A81DE58F9800562C95 /* Build configuration list for PBXProject "MVVM实战之登陆界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330E22A41DE58F9800562C95;
+			productRefGroup = 330E22AE1DE58F9800562C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330E22AC1DE58F9800562C95 /* MVVM实战之登陆界面 */,
+				330E22C51DE58F9800562C95 /* MVVM实战之登陆界面Tests */,
+				330E22D01DE58F9800562C95 /* MVVM实战之登陆界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330E22AB1DE58F9800562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E22C01DE58F9800562C95 /* LaunchScreen.storyboard in Resources */,
+				330E22BD1DE58F9800562C95 /* Assets.xcassets in Resources */,
+				330E22BB1DE58F9800562C95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22C41DE58F9800562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22CF1DE58F9800562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F9FE44C851C1AC6E580372A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62645B4C2E8CB53FD07DC9AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面/Pods-MVVM实战之登陆界面-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF057CED4A905F53C81191B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面UITests/Pods-MVVM实战之登陆界面UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8393B6338E3BBA3650720A80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面Tests/Pods-MVVM实战之登陆界面Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D446172A24EFE3939B0109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99195AD14A4C8A9C870F33A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面Tests/Pods-MVVM实战之登陆界面Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BCDDD03C0BAFE3B3D94BBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面UITests/Pods-MVVM实战之登陆界面UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A8F6F00C33E130834BC3D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之登陆界面/Pods-MVVM实战之登陆界面-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F179002EA857DD354F016DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330E22A91DE58F9800562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E22E51DE5AC9B00562C95 /* LoginViewModel.m in Sources */,
+				330E22B81DE58F9800562C95 /* ViewController.m in Sources */,
+				330E22B51DE58F9800562C95 /* AppDelegate.m in Sources */,
+				330E22E81DE5ACA700562C95 /* Account.m in Sources */,
+				330E22B21DE58F9800562C95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22C21DE58F9800562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E22CB1DE58F9800562C95 /* MVVM_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E22CD1DE58F9800562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E22D61DE58F9800562C95 /* MVVM_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330E22C81DE58F9800562C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E22AC1DE58F9800562C95 /* MVVM实战之登陆界面 */;
+			targetProxy = 330E22C71DE58F9800562C95 /* PBXContainerItemProxy */;
+		};
+		330E22D31DE58F9800562C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E22AC1DE58F9800562C95 /* MVVM实战之登陆界面 */;
+			targetProxy = 330E22D21DE58F9800562C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330E22B91DE58F9800562C95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E22BA1DE58F9800562C95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330E22BE1DE58F9800562C95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E22BF1DE58F9800562C95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330E22D81DE58F9800562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		330E22D91DE58F9800562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330E22DB1DE58F9800562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35628D302756110E097D237 /* Pods-MVVM实战之登陆界面.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		330E22DC1DE58F9800562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E1F5222AFCED616BDC9951 /* Pods-MVVM实战之登陆界面.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		330E22DE1DE58F9800562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B019271E31720B9CE2DE1BE /* Pods-MVVM实战之登陆界面Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM实战之登陆界面.app/MVVM实战之登陆界面";
+			};
+			name = Debug;
+		};
+		330E22DF1DE58F9800562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0575F0271D4180E803645135 /* Pods-MVVM实战之登陆界面Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM实战之登陆界面.app/MVVM实战之登陆界面";
+			};
+			name = Release;
+		};
+		330E22E11DE58F9800562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E991D39EBBA7CCF012F1A08 /* Pods-MVVM实战之登陆界面UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MVVM实战之登陆界面";
+			};
+			name = Debug;
+		};
+		330E22E21DE58F9800562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7D14408E781999314B2CB8 /* Pods-MVVM实战之登陆界面UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之登陆界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MVVM实战之登陆界面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330E22A81DE58F9800562C95 /* Build configuration list for PBXProject "MVVM实战之登陆界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E22D81DE58F9800562C95 /* Debug */,
+				330E22D91DE58F9800562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E22DA1DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E22DB1DE58F9800562C95 /* Debug */,
+				330E22DC1DE58F9800562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E22DD1DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E22DE1DE58F9800562C95 /* Debug */,
+				330E22DF1DE58F9800562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E22E01DE58F9800562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之登陆界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E22E11DE58F9800562C95 /* Debug */,
+				330E22E21DE58F9800562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330E22A51DE58F9800562C95 /* Project object */;
+}

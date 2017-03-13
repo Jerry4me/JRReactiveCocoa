@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E22F71DE5B59A00562C95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22F61DE5B59A00562C95 /* main.m */; };
+		330E22FA1DE5B59A00562C95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22F91DE5B59A00562C95 /* AppDelegate.m */; };
+		330E22FD1DE5B59A00562C95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E22FC1DE5B59A00562C95 /* ViewController.m */; };
+		330E23001DE5B59A00562C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E22FE1DE5B59A00562C95 /* Main.storyboard */; };
+		330E23021DE5B59A00562C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330E23011DE5B59A00562C95 /* Assets.xcassets */; };
+		330E23051DE5B59A00562C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E23031DE5B59A00562C95 /* LaunchScreen.storyboard */; };
+		330E23101DE5B59A00562C95 /* MVVM_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E230F1DE5B59A00562C95 /* MVVM_______Tests.m */; };
+		330E231B1DE5B59A00562C95 /* MVVM_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E231A1DE5B59A00562C95 /* MVVM_______UITests.m */; };
+		330E232A1DE5B6DC00562C95 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E23291DE5B6DC00562C95 /* RequestViewModel.m */; };
+		330E232D1DE5BE8200562C95 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E232C1DE5BE8200562C95 /* Book.m */; };
+		330E23301DE5BED600562C95 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E232F1DE5BED600562C95 /* BookTableViewCell.m */; };
+		3C73A9EF4DDBBFC81C47F81E /* libPods-MVVM实战之网络请求UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E5AB45ED6DB1A127448A65 /* libPods-MVVM实战之网络请求UITests.a */; };
+		723F90309940B6A283CF2F6E /* libPods-MVVM实战之网络请求Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88B47F312626BD085FF54A8 /* libPods-MVVM实战之网络请求Tests.a */; };
+		C8DDFC9D757C38BF90AB679E /* libPods-MVVM实战之网络请求.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A077E02E55A51252A9B51096 /* libPods-MVVM实战之网络请求.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330E230C1DE5B59A00562C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E22EA1DE5B59A00562C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E22F11DE5B59A00562C95;
+			remoteInfo = "MVVM实战之网络请求";
+		};
+		330E23171DE5B59A00562C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E22EA1DE5B59A00562C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E22F11DE5B59A00562C95;
+			remoteInfo = "MVVM实战之网络请求";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101D040C3869B651F86999B0 /* Pods-MVVM实战之网络请求UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求UITests/Pods-MVVM实战之网络请求UITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CDB4D0A67B1318638E0A895 /* Pods-MVVM实战之网络请求Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求Tests/Pods-MVVM实战之网络请求Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D35808F7A406D7364173B74 /* Pods-MVVM实战之网络请求.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求/Pods-MVVM实战之网络请求.debug.xcconfig"; sourceTree = "<group>"; };
+		330E22F21DE5B59A00562C95 /* MVVM实战之网络请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM实战之网络请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E22F61DE5B59A00562C95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330E22F81DE5B59A00562C95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330E22F91DE5B59A00562C95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330E22FB1DE5B59A00562C95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330E22FC1DE5B59A00562C95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330E22FF1DE5B59A00562C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330E23011DE5B59A00562C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330E23041DE5B59A00562C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330E23061DE5B59A00562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E230B1DE5B59A00562C95 /* MVVM实战之网络请求Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM实战之网络请求Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E230F1DE5B59A00562C95 /* MVVM_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVVM_______Tests.m"; sourceTree = "<group>"; };
+		330E23111DE5B59A00562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E23161DE5B59A00562C95 /* MVVM实战之网络请求UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM实战之网络请求UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E231A1DE5B59A00562C95 /* MVVM_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVVM_______UITests.m"; sourceTree = "<group>"; };
+		330E231C1DE5B59A00562C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E23281DE5B6DC00562C95 /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		330E23291DE5B6DC00562C95 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		330E232B1DE5BE8200562C95 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		330E232C1DE5BE8200562C95 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		330E232E1DE5BED600562C95 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		330E232F1DE5BED600562C95 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		69E5AB45ED6DB1A127448A65 /* libPods-MVVM实战之网络请求UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之网络请求UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF9A14F1A5010503590FBCF /* Pods-MVVM实战之网络请求.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求/Pods-MVVM实战之网络请求.release.xcconfig"; sourceTree = "<group>"; };
+		A077E02E55A51252A9B51096 /* libPods-MVVM实战之网络请求.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之网络请求.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC107C8838FDF077DDE66625 /* Pods-MVVM实战之网络请求Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求Tests/Pods-MVVM实战之网络请求Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C88B47F312626BD085FF54A8 /* libPods-MVVM实战之网络请求Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM实战之网络请求Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD53F0AFDA3202F821C307D /* Pods-MVVM实战之网络请求UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM实战之网络请求UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM实战之网络请求UITests/Pods-MVVM实战之网络请求UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330E22EF1DE5B59A00562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DDFC9D757C38BF90AB679E /* libPods-MVVM实战之网络请求.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23081DE5B59A00562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723F90309940B6A283CF2F6E /* libPods-MVVM实战之网络请求Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23131DE5B59A00562C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73A9EF4DDBBFC81C47F81E /* libPods-MVVM实战之网络请求UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E22E91DE5B59A00562C95 = {
+			isa = PBXGroup;
+			children = (
+				330E22F41DE5B59A00562C95 /* MVVM实战之网络请求 */,
+				330E230E1DE5B59A00562C95 /* MVVM实战之网络请求Tests */,
+				330E23191DE5B59A00562C95 /* MVVM实战之网络请求UITests */,
+				330E22F31DE5B59A00562C95 /* Products */,
+				57B6E3D87061CB8FBCB58A0F /* Pods */,
+				B4B2F02AD2F4E0FA2D487485 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		330E22F31DE5B59A00562C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330E22F21DE5B59A00562C95 /* MVVM实战之网络请求.app */,
+				330E230B1DE5B59A00562C95 /* MVVM实战之网络请求Tests.xctest */,
+				330E23161DE5B59A00562C95 /* MVVM实战之网络请求UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330E22F41DE5B59A00562C95 /* MVVM实战之网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				330E22F81DE5B59A00562C95 /* AppDelegate.h */,
+				330E22F91DE5B59A00562C95 /* AppDelegate.m */,
+				330E22FB1DE5B59A00562C95 /* ViewController.h */,
+				330E22FC1DE5B59A00562C95 /* ViewController.m */,
+				330E232B1DE5BE8200562C95 /* Book.h */,
+				330E232C1DE5BE8200562C95 /* Book.m */,
+				330E232E1DE5BED600562C95 /* BookTableViewCell.h */,
+				330E232F1DE5BED600562C95 /* BookTableViewCell.m */,
+				330E23281DE5B6DC00562C95 /* RequestViewModel.h */,
+				330E23291DE5B6DC00562C95 /* RequestViewModel.m */,
+				330E22FE1DE5B59A00562C95 /* Main.storyboard */,
+				330E23011DE5B59A00562C95 /* Assets.xcassets */,
+				330E23031DE5B59A00562C95 /* LaunchScreen.storyboard */,
+				330E23061DE5B59A00562C95 /* Info.plist */,
+				330E22F51DE5B59A00562C95 /* Supporting Files */,
+			);
+			path = "MVVM实战之网络请求";
+			sourceTree = "<group>";
+		};
+		330E22F51DE5B59A00562C95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330E22F61DE5B59A00562C95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330E230E1DE5B59A00562C95 /* MVVM实战之网络请求Tests */ = {
+			isa = PBXGroup;
+			children = (
+				330E230F1DE5B59A00562C95 /* MVVM_______Tests.m */,
+				330E23111DE5B59A00562C95 /* Info.plist */,
+			);
+			path = "MVVM实战之网络请求Tests";
+			sourceTree = "<group>";
+		};
+		330E23191DE5B59A00562C95 /* MVVM实战之网络请求UITests */ = {
+			isa = PBXGroup;
+			children = (
+				330E231A1DE5B59A00562C95 /* MVVM_______UITests.m */,
+				330E231C1DE5B59A00562C95 /* Info.plist */,
+			);
+			path = "MVVM实战之网络请求UITests";
+			sourceTree = "<group>";
+		};
+		57B6E3D87061CB8FBCB58A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D35808F7A406D7364173B74 /* Pods-MVVM实战之网络请求.debug.xcconfig */,
+				7DF9A14F1A5010503590FBCF /* Pods-MVVM实战之网络请求.release.xcconfig */,
+				BC107C8838FDF077DDE66625 /* Pods-MVVM实战之网络请求Tests.debug.xcconfig */,
+				1CDB4D0A67B1318638E0A895 /* Pods-MVVM实战之网络请求Tests.release.xcconfig */,
+				CAD53F0AFDA3202F821C307D /* Pods-MVVM实战之网络请求UITests.debug.xcconfig */,
+				101D040C3869B651F86999B0 /* Pods-MVVM实战之网络请求UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4B2F02AD2F4E0FA2D487485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A077E02E55A51252A9B51096 /* libPods-MVVM实战之网络请求.a */,
+				C88B47F312626BD085FF54A8 /* libPods-MVVM实战之网络请求Tests.a */,
+				69E5AB45ED6DB1A127448A65 /* libPods-MVVM实战之网络请求UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330E22F11DE5B59A00562C95 /* MVVM实战之网络请求 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E231F1DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求" */;
+			buildPhases = (
+				41A2992E3986EB7195580FA0 /* [CP] Check Pods Manifest.lock */,
+				330E22EE1DE5B59A00562C95 /* Sources */,
+				330E22EF1DE5B59A00562C95 /* Frameworks */,
+				330E22F01DE5B59A00562C95 /* Resources */,
+				A2E7FDC971712DBCF1E34567 /* [CP] Embed Pods Frameworks */,
+				F848EB1DA264146E9471B4FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM实战之网络请求";
+			productName = "MVVM实战之网络请求";
+			productReference = 330E22F21DE5B59A00562C95 /* MVVM实战之网络请求.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330E230A1DE5B59A00562C95 /* MVVM实战之网络请求Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E23221DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求Tests" */;
+			buildPhases = (
+				3F40E1262FD0E8C4F82B5EF5 /* [CP] Check Pods Manifest.lock */,
+				330E23071DE5B59A00562C95 /* Sources */,
+				330E23081DE5B59A00562C95 /* Frameworks */,
+				330E23091DE5B59A00562C95 /* Resources */,
+				74B7D67353E422D228983B76 /* [CP] Embed Pods Frameworks */,
+				07A970E8F9C017DA457AB30F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E230D1DE5B59A00562C95 /* PBXTargetDependency */,
+			);
+			name = "MVVM实战之网络请求Tests";
+			productName = "MVVM实战之网络请求Tests";
+			productReference = 330E230B1DE5B59A00562C95 /* MVVM实战之网络请求Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330E23151DE5B59A00562C95 /* MVVM实战之网络请求UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E23251DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求UITests" */;
+			buildPhases = (
+				E36F6B12FA90F3822ECEF663 /* [CP] Check Pods Manifest.lock */,
+				330E23121DE5B59A00562C95 /* Sources */,
+				330E23131DE5B59A00562C95 /* Frameworks */,
+				330E23141DE5B59A00562C95 /* Resources */,
+				9F247DFD66C806C3527B7D2D /* [CP] Embed Pods Frameworks */,
+				A606DB51971984F9A55E74F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E23181DE5B59A00562C95 /* PBXTargetDependency */,
+			);
+			name = "MVVM实战之网络请求UITests";
+			productName = "MVVM实战之网络请求UITests";
+			productReference = 330E23161DE5B59A00562C95 /* MVVM实战之网络请求UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330E22EA1DE5B59A00562C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					330E22F11DE5B59A00562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+					};
+					330E230A1DE5B59A00562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330E22F11DE5B59A00562C95;
+					};
+					330E23151DE5B59A00562C95 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5E5DYGDNY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330E22F11DE5B59A00562C95;
+					};
+				};
+			};
+			buildConfigurationList = 330E22ED1DE5B59A00562C95 /* Build configuration list for PBXProject "MVVM实战之网络请求" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330E22E91DE5B59A00562C95;
+			productRefGroup = 330E22F31DE5B59A00562C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330E22F11DE5B59A00562C95 /* MVVM实战之网络请求 */,
+				330E230A1DE5B59A00562C95 /* MVVM实战之网络请求Tests */,
+				330E23151DE5B59A00562C95 /* MVVM实战之网络请求UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330E22F01DE5B59A00562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E23051DE5B59A00562C95 /* LaunchScreen.storyboard in Resources */,
+				330E23021DE5B59A00562C95 /* Assets.xcassets in Resources */,
+				330E23001DE5B59A00562C95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23091DE5B59A00562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23141DE5B59A00562C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A970E8F9C017DA457AB30F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求Tests/Pods-MVVM实战之网络请求Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F40E1262FD0E8C4F82B5EF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41A2992E3986EB7195580FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74B7D67353E422D228983B76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求Tests/Pods-MVVM实战之网络请求Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F247DFD66C806C3527B7D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求UITests/Pods-MVVM实战之网络请求UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E7FDC971712DBCF1E34567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求/Pods-MVVM实战之网络请求-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A606DB51971984F9A55E74F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求UITests/Pods-MVVM实战之网络请求UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36F6B12FA90F3822ECEF663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F848EB1DA264146E9471B4FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM实战之网络请求/Pods-MVVM实战之网络请求-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330E22EE1DE5B59A00562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E232D1DE5BE8200562C95 /* Book.m in Sources */,
+				330E22FD1DE5B59A00562C95 /* ViewController.m in Sources */,
+				330E22FA1DE5B59A00562C95 /* AppDelegate.m in Sources */,
+				330E232A1DE5B6DC00562C95 /* RequestViewModel.m in Sources */,
+				330E23301DE5BED600562C95 /* BookTableViewCell.m in Sources */,
+				330E22F71DE5B59A00562C95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23071DE5B59A00562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E23101DE5B59A00562C95 /* MVVM_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E23121DE5B59A00562C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E231B1DE5B59A00562C95 /* MVVM_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330E230D1DE5B59A00562C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E22F11DE5B59A00562C95 /* MVVM实战之网络请求 */;
+			targetProxy = 330E230C1DE5B59A00562C95 /* PBXContainerItemProxy */;
+		};
+		330E23181DE5B59A00562C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E22F11DE5B59A00562C95 /* MVVM实战之网络请求 */;
+			targetProxy = 330E23171DE5B59A00562C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330E22FE1DE5B59A00562C95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E22FF1DE5B59A00562C95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330E23031DE5B59A00562C95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E23041DE5B59A00562C95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330E231D1DE5B59A00562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		330E231E1DE5B59A00562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330E23201DE5B59A00562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D35808F7A406D7364173B74 /* Pods-MVVM实战之网络请求.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		330E23211DE5B59A00562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF9A14F1A5010503590FBCF /* Pods-MVVM实战之网络请求.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		330E23231DE5B59A00562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC107C8838FDF077DDE66625 /* Pods-MVVM实战之网络请求Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM实战之网络请求.app/MVVM实战之网络请求";
+			};
+			name = Debug;
+		};
+		330E23241DE5B59A00562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDB4D0A67B1318638E0A895 /* Pods-MVVM实战之网络请求Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM实战之网络请求.app/MVVM实战之网络请求";
+			};
+			name = Release;
+		};
+		330E23261DE5B59A00562C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD53F0AFDA3202F821C307D /* Pods-MVVM实战之网络请求UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MVVM实战之网络请求";
+			};
+			name = Debug;
+		};
+		330E23271DE5B59A00562C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101D040C3869B651F86999B0 /* Pods-MVVM实战之网络请求UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5E5DYGDNY2;
+				INFOPLIST_FILE = "MVVM实战之网络请求UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.MVVM-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MVVM实战之网络请求";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330E22ED1DE5B59A00562C95 /* Build configuration list for PBXProject "MVVM实战之网络请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E231D1DE5B59A00562C95 /* Debug */,
+				330E231E1DE5B59A00562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E231F1DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E23201DE5B59A00562C95 /* Debug */,
+				330E23211DE5B59A00562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E23221DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E23231DE5B59A00562C95 /* Debug */,
+				330E23241DE5B59A00562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E23251DE5B59A00562C95 /* Build configuration list for PBXNativeTarget "MVVM实战之网络请求UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E23261DE5B59A00562C95 /* Debug */,
+				330E23271DE5B59A00562C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330E22EA1DE5B59A00562C95 /* Project object */;
+}
